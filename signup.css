@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+
+        
+
+        .topnav {
+            overflow: hidden;
+            background-color: #080808;
+        }
+
+        .topnav a {
+            float: right;
+            
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .topnav a.active {
+            background-color: #ffffff;
+            color: rgb(0, 0, 0);
+        }
+        .banner
+{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner video
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit:cover;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;   
+}
+
+.content
+{
+    position: relative;
+    z-index: 1;
+    max-width:1000px;
+    margin:0 auto;
+    text-align: center;
+}
+
+.bg-img {
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.body {
+    font-family: 'League Spartan', sans-serif;
+     background-color: #faf8f683;
+}
+.color {
+  color:aliceblue;
+  text-shadow: 0cqh;
+}
+
+.input1 {
+  width: 200px;
+}
+span {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  position:absolute ;
+  top: 10%;
+  left: 45%;
+  transform: translate(-50%,-50%);
+  background-image: linear-gradient(rgba(246, 120, 240, 0.836), rgb(27, 19, 25));
+  background-size: 100% 10px;
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
+   transition: background-size .7s, background-position .5s ease-in-out;
+}
+
+span:hover {
+  background-size: 100% 100%;
+  background-position: 0% 100%;
+  transition: background-position .7s, background-size .5s ease-in-out;
+}
+
+input, textarea{
+  padding: 5px 20px;
+  border-radius: 10px;
+  border:none;
+  font-size: 16px;
+  
+  }
+

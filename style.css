@@ -1,0 +1,39 @@
+.box-container{
+  background:rgb(12, 12, 12);
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  padding-left: 4rem;
+  font-family:'Sofia Sans Condensed', sans-serif ;
+  text-decoration: none;
+  color: white;
+}
+
+.box-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+  gap:1rem;
+  text-decoration: none;
+}
+
+.box-container .box h3{
+  font-size: 1.2rem;
+  padding:1rem 0;
+  color:var(--black);
+}
+
+.box-container .box a{
+  display: block;
+  font-size: 1.2rem;
+  padding:1rem 0;
+  color:rgb(252, 250, 250);
+  text-decoration: none;
+}
+
+.box-container .box a i{
+  padding-right: 1.5rem;
+  color:var(--black);
+}
+
+.box-container .box a:hover i{
+  padding-right: 2rem;
+}
